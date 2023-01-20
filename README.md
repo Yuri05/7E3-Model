@@ -1,5 +1,5 @@
-# COMPOUND-Model
-**_tbd._**
+# 7E3-Model
+Whole-body PBPK model of the antibody 7E3 in mice.
 
 ## Repository files
 **_tbd._**
