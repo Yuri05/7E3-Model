@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "7E3",
+            "Path": "../../7E3.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -14,15 +14,15 @@
             "GOFMergedPlotsPredictedVsObserved": [
                 {
                     "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -53,8 +53,8 @@
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,19 +121,24 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "7E3",
+                "Simulation": "7E3_WildTypeMouse_Plasma",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "7E3",
+                "Simulation": "7E3_WildTypeMouse",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "7E3",
+                "Simulation": "7E3_FcRn_KO_Mouse",
                 "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plot for concentration in plasma",
+                "Title": "Goodness of fit plot for concentration in plasma and tissues",
                 "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
@@ -146,28 +151,168 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "Wild-type mouse",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse_Plasma",
+                                "Output": "Organism|VenousBlood|Plasma|7E3|Concentration in container",
+                                "ObservedData": ["Garg2007_2009_PKSimImport_WT.Data_WildType.VenousBlood.Plasma.Garg2007Fig3","Garg2007_2009_PKSimImport_WT.Data_WildType.VenousBlood.Plasma.Garg2007Fig5","Garg2007_2009_PKSimImport_WT.Data_WildType.VenousBlood.Plasma.Garg2009"],
                                 "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Lung|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Lung.Tissue.Garg2007Fig5",
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Kidney|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Kidney.Tissue.Garg2007Fig5",
+                                "Color": "#FF8000"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Skin|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Skin.Tissue.Garg2007Fig5",
+                                "Color": "#FF00FF"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Muscle|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Muscle.Tissue.Garg2007Fig5",
+                                "Color": "#800080"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Spleen|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Spleen.Tissue.Garg2007Fig5",
+                                "Color": "#00FF00"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Liver|7E3|Whole Organ incl. FcRn_Complex (Liver)-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Liver.Tissue.Garg2007Fig5",
+                                "Color": "#C04000"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Heart|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Heart.Tissue.Garg2007Fig5",
+                                "Color": "#FF8080"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|SmallIntestine|7E3|Whole Organ (Small Intestine) incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Gut.Tissue.Garg2007Fig5",
+                                "Color": "#804040"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|LargeIntestine|7E3|Whole Organ (Large Intestine) incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Gut.Tissue.Garg2007Fig5",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_WildTypeMouse",
+                                "Output": "Organism|Brain|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Brain.Tissue.Garg2009",
+                                "Color": "#008000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "FcRn KO mouse",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|VenousBlood|Plasma|7E3|Concentration in container",
+                                "ObservedData": ["Garg2007_2009_PKSimImport_KO.Data_FcRnKO.VenousBlood.Plasma.Garg2007Fig3","Garg2007_2009_PKSimImport_KO.Data_FcRnKO.VenousBlood.Plasma.Garg2007Fig5","Garg2007_2009_PKSimImport_KO.Data_FcRnKO.VenousBlood.Plasma.Garg2009"],
                                 "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Lung|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Lung.Tissue.Garg2007Fig5",
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Kidney|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Kidney.Tissue.Garg2007Fig5",
+                                "Color": "#FF8000"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Skin|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Skin.Tissue.Garg2007Fig5",
+                                "Color": "#FF00FF"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Muscle|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Muscle.Tissue.Garg2007Fig5",
+                                "Color": "#800080"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Spleen|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Spleen.Tissue.Garg2007Fig5",
+                                "Color": "#00FF00"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Liver|7E3|Whole Organ incl. FcRn_Complex (Liver)-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Liver.Tissue.Garg2007Fig5",
+                                "Color": "#C04000"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Heart|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Heart.Tissue.Garg2007Fig5",
+                                "Color": "#FF8080"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|SmallIntestine|7E3|Whole Organ (Small Intestine) incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Gut.Tissue.Garg2007Fig5",
+                                "Color": "#804040"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|LargeIntestine|7E3|Whole Organ (Large Intestine) incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Gut.Tissue.Garg2007Fig5",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "7E3",
+                                "Simulation": "7E3_FcRn_KO_Mouse",
+                                "Output": "Organism|Brain|7E3|Whole Organ incl. FcRn_Complex-7E3",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Brain.Tissue.Garg2009",
+                                "Color": "#008000"
                             }
                         ]
                     }
@@ -180,15 +325,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "7E3",
+            "Name": "7E3",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],

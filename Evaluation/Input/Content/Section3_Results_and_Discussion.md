@@ -1,11 +1,6 @@
-The PBPK model for COMPOUND was developed and verified with clinical pharmacokinetic data.
+The PBPK model for 7E3 was evaluated with plasma and tissue PK data in wild-type and FcRn knockout mice. 
 
-The model was evaluated covering data from studies including in particular
-
-* ...
-* ...
-
-The model quantifies ...
+These PK data have been used together with PK data from 5 other compounds to simultaneously identify  parameters during the development of the generic model for proteins and large molecules in PK-Sim ([Niederalt 2018](#5-references)).
 
 The next sections show:
 

@@ -1,40 +1,19 @@
 ### In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a>
 
-A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physicochemical properties of 7E3. The obtained information from literature is summarized in the table below. 
 
-| **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
-| :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
-| MW              | g/mol    |           | [Dummy YEAR](#main-references)               | Molecular weight                                |
-| pK<sub>a</sub>  |          |           | [DrugBank DB06292](#main-references)         | Acid dissociation constant                      |
-| Solubility (pH) |          |           | [Dummy YEAR](#main-references)               | Aqueous Solubility, FaSSIF, ...                 |
-| logP            |          |           | [Dummy YEAR](#main-references) (experimental) | Partition coefficient between octanol and water |
-| fu              | %        |           | [Dummy YEAR](#main-references)                | Fraction unbound in plasma                      |
-| B/P ratio       |          |           | [Dummy YEAR](#main-references)                | Blood to plasma ratio                           |
-| ...             |          |           |                                            | ....                                            |
+| **Parameter** | **Unit** | **Value** | Source                       | **Description**                                              |
+| :------------ | -------- | --------- | ---------------------------- | ------------------------------------------------------------ |
+| MW            | g/mol    | 150000    | [Lobo 2004](#5-references)   | Molecular weight                                             |
+| r             | nm       | 5.34      | [Taylor 1984](#5-references) | Hydrodynamic solute radius                                   |
+| Kd (FcRn)     | µM       | 0.75      | [Zhou 2003](#5-references)   | Dissociation constant for binding of a murine IgG1 antibody to murine FcRn at pH 6 |
 
-### Clinical Data  <a id="clinical-data"></a>
+### PK Data <a id="PK-data"></a>
 
-A literature search was performed to collect available clinical data on dapagliflozin in healthy adults.
+Published plasma and tissue PK data on 7E3 in wild-type and FcRn knockout mice were used.
 
-#### Model Building <a id="model-building"></a>
-
-The following studies were used for model building (training data):
-
-| Publication                 | Arm / Treatment / Information used for model building |
-| :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of X mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-
-#### Model Verification <a id="model-verification"></a>
-
-The following studies were used for model verification:
-
-| Publication                 | Arm / Treatment / Information used for model building |
-| :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of Y mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
+| Publication               | Description                                                  |
+| :------------------------ | :----------------------------------------------------------- |
+| [Garg2007](#5-references) | Experimental plasma and tissue concentrations after single 8 mg/kg IV bolus injection. Tissue concentrations of 125I-labeled 7E3 were determined from blotted dried tissues after sacrificing 3 mice per time point. |
+| [Garg2009](#5-references) | Experimental plasma and brain concentrations after single 8 mg/kg IV bolus injection. Brain concentrations were corrected for residual blood. |
 
