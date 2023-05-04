@@ -158,77 +158,77 @@
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse_Plasma",
                                 "Output": "Organism|VenousBlood|Plasma|7E3|Concentration in container",
-                                "ObservedData": ["Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Plasma (Garg2007, Fig 3)","Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Plasma (Garg2007, Fig 5)","Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Plasma (Garg2009)"],
+                                "ObservedData": ["Garg2007_2009_PKSimImport_WT.Data_WildType.VenousBlood.Plasma.Garg2007Fig3","Garg2007_2009_PKSimImport_WT.Data_WildType.VenousBlood.Plasma.Garg2007Fig5","Garg2007_2009_PKSimImport_WT.Data_WildType.VenousBlood.Plasma.Garg2009"],
                                 "Color": "#FF0000"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Lung|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Lung",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Lung.Tissue.Garg2007Fig5",
                                 "Color": "#0000FF"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Kidney|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Kidney",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Kidney.Tissue.Garg2007Fig5",
                                 "Color": "#FF8000"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Skin|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Skin",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Skin.Tissue.Garg2007Fig5",
                                 "Color": "#FF00FF"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Muscle|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Muscle",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Muscle.Tissue.Garg2007Fig5",
                                 "Color": "#800080"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Spleen|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Spleen",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Spleen.Tissue.Garg2007Fig5",
                                 "Color": "#00FF00"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Liver|7E3|Whole Organ incl. FcRn_Complex (Liver)-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Liver",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Liver.Tissue.Garg2007Fig5",
                                 "Color": "#C04000"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Heart|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Heart",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Heart.Tissue.Garg2007Fig5",
                                 "Color": "#FF8080"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|SmallIntestine|7E3|Whole Organ (Small Intestine) incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Gut",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Gut.Tissue.Garg2007Fig5",
                                 "Color": "#804040"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|LargeIntestine|7E3|Whole Organ (Large Intestine) incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Gut",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Gut.Tissue.Garg2007Fig5",
                                 "Color": "#808080"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_WildTypeMouse",
                                 "Output": "Organism|Brain|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_WT.Data_WildType.Brain",
+                                "ObservedData": "Garg2007_2009_PKSimImport_WT.Data_WildType.Brain.Tissue.Garg2009",
                                 "Color": "#008000"
                             }
                         ]
@@ -241,77 +241,77 @@
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|VenousBlood|Plasma|7E3|Concentration in container",
-                                "ObservedData": ["Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Plasma (Garg2007, Fig 3)","Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Plasma (Garg2007, Fig 5)","Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Plasma (Garg2009)"],
+                                "ObservedData": ["Garg2007_2009_PKSimImport_KO.Data_FcRnKO.VenousBlood.Plasma.Garg2007Fig3","Garg2007_2009_PKSimImport_KO.Data_FcRnKO.VenousBlood.Plasma.Garg2007Fig5","Garg2007_2009_PKSimImport_KO.Data_FcRnKO.VenousBlood.Plasma.Garg2009"],
                                 "Color": "#FF0000"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Lung|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Lung",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Lung.Tissue.Garg2007Fig5",
                                 "Color": "#0000FF"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Kidney|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Kidney",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Kidney.Tissue.Garg2007Fig5",
                                 "Color": "#FF8000"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Skin|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Skin",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Skin.Tissue.Garg2007Fig5",
                                 "Color": "#FF00FF"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Muscle|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Muscle",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Muscle.Tissue.Garg2007Fig5",
                                 "Color": "#800080"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Spleen|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Spleen",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Spleen.Tissue.Garg2007Fig5",
                                 "Color": "#00FF00"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Liver|7E3|Whole Organ incl. FcRn_Complex (Liver)-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Liver",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Liver.Tissue.Garg2007Fig5",
                                 "Color": "#C04000"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Heart|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Heart",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Heart.Tissue.Garg2007Fig5",
                                 "Color": "#FF8080"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|SmallIntestine|7E3|Whole Organ (Small Intestine) incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Gut",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Gut.Tissue.Garg2007Fig5",
                                 "Color": "#804040"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|LargeIntestine|7E3|Whole Organ (Large Intestine) incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Gut",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Gut.Tissue.Garg2007Fig5",
                                 "Color": "#808080"
                             },
                             {
                                 "Project": "7E3",
                                 "Simulation": "7E3_FcRn_KO_Mouse",
                                 "Output": "Organism|Brain|7E3|Whole Organ incl. FcRn_Complex-7E3",
-                                "ObservedData": "Garg2007_Garg2009_PBPK_PKSimImport_KO.Data_FcRnKO.Brain",
+                                "ObservedData": "Garg2007_2009_PKSimImport_KO.Data_FcRnKO.Brain.Tissue.Garg2009",
                                 "Color": "#008000"
                             }
                         ]

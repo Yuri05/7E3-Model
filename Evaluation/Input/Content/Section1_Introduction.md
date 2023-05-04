@@ -4,7 +4,7 @@ For 7E3, plasma and tissue concentration-time profiles for various tissues were 
 
 The herein presented evaluation report evaluates the performance of a PBPK model for 7E3 in wild-type and FcRn knockout mice for the PK data used for the development of the generic large molecule model in PK-Sim.  
 
-The presented 7E3 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/.../Compound-model).
+The presented 7E3 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/7E3-Model).
 
 
 
